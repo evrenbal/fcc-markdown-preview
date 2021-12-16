@@ -1,0 +1,34 @@
+.splitter {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+
+  > * {
+    width: 100%;
+  }
+
+  @media (min-width: 768px) {
+    > * {
+      width: 50%;
+    }
+  }
+
+  .captions {
+    width: 100%;
+    height: 2.25rem;
+    display: flex;
+    > button {
+      width: 50%;
+      text-align: center;
+      background-color: #ddd;
+      color: #aaa;
+      font-size: 1.5rem;
+      font-weight: bold;
+      &.active {
+        background-color: #eee;
+        color: #000;
+      }
+    }    
+  }
+}
