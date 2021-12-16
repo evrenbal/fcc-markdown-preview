@@ -2,7 +2,7 @@
 
 This is a sample project created for freeCodeCamp Frontend Development Libraries Certification
 
-[Click for a Live Preview](https://evrenbal.github.io/fcc-markdown-previewer). 
+[Click here for a Live Preview](https://evrenbal.github.io/fcc-markdown-previewer). 
 
 ### Screenshot of the project
 
